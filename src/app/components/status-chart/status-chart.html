@@ -1,0 +1,13 @@
+<div class="card p-3 w-75 mx-auto">
+  <h5 class="text-center mb-3 fw-semibold text-muted">
+    {{ title }}
+  </h5>
+
+  <canvas
+    baseChart
+    [type]="chartType"
+    [data]="chartData"
+    [options]="chartOptions"
+    style="height: 300px;">
+  </canvas>
+</div>

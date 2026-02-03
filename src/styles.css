@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  background-color: #e3e8f4;
+}
+
+main {
+  padding-bottom: 3rem;
+}
+
+.card {
+  border: none !important;
+}
+
+.mat-mdc-header-cell {
+  font-weight: 500 !important;
+  color: #6c757d !important;
+}
+
+.bg-soft-success {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.bg-soft-warning {
+  background-color: #fff3cd;
+  color: #664d03;
+}
+
+.bg-soft-danger {
+  background-color: #f8d7da;
+  color: #842029;
+}
