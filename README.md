@@ -84,6 +84,8 @@ docker-compose up --build -d
 ```
 > ✅ Não é necessário instalar dependências manualmente.
 
+**A aplicação deve ser executada no endereço [https://localhost:4200](http://localhost:4200/).**
+
 ---
 
 ## Configurações
